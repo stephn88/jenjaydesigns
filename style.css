@@ -1,0 +1,247 @@
+/*img {
+    width:100%;
+}*/
+
+h1 {
+  font-family: ambroise-std, serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 150px;
+  color: #0b6e4f;
+  text-align: center;
+}
+
+.h1-animation {
+  font-family: ambroise-std, serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 300px;
+  color: #0b6e4f;
+  text-align: center;
+  background-color: #fa9f42;
+  position: relative;
+  animation: mymove 3s;
+  animation-fill-mode: forwards;
+}
+
+h2 {
+  font-family: operetta-12, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 110px;
+  color: #1f2b8f;
+  text-align: center;
+}
+
+h3 {
+  font-family: operetta-12, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+  color: #fa9f42;
+  text-align: center;
+}
+
+p {
+  font-family: operetta-12, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  color: #000000;
+  text-align: center;
+}
+
+.hexagon-blue-bkgd {
+  position: relative;
+}
+.parallax-saffron {
+  background-image: url("/images/1920px-orange-green.png");
+  min-height: 1920px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax-green {
+  background-image: url("/images/1920-green-black-logo.png");
+  min-height: 1920px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* black background logos*/
+.parallax-black-white {
+  background-image: url("/images/1920-black-white-logo.png");
+  min-height: 1920px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/*hexagon print parallax*/
+
+.parallax-blue-hex {
+  background-image: url("/images/African-Print-hexagon-blue.png");
+  min-height: 1920px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax-blue-white {
+  background-image: url("/images/1920-black-white-logo.png");
+  min-height: 1920px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding: 20px;
+}
+.flex-items:nth-child(1) {
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+  width: 100%;
+  padding-left: 200px;
+}
+
+.flex-items:nth-child(2) {
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+  width: 100%;
+  align-content: center;
+}
+
+.flex-items:nth-child(3) {
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+  width: 100%;
+}
+/*phone*/
+@media screen and (max-width: 600px) {
+  /*.parallax {
+    background-attachment: scroll;
+  }*/
+
+  h1 {
+    font-family: ambroise-std, serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 50px;
+    color: #0b6e4f;
+    text-align: center;
+  }
+
+  .h1-animation {
+    font-family: ambroise-std, serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 50px;
+    color: #0b6e4f;
+    text-align: center;
+    background-color: #fa9f42;
+    position: relative;
+    animation: mymove 3s;
+    animation-fill-mode: forwards;
+  }
+
+  h2 {
+    font-family: operetta-12, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color: #1f2b8f;
+    text-align: center;
+  }
+
+  h3 {
+    font-family: operetta-12, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    color: #fa9f42;
+    text-align: center;
+  }
+
+  p {
+    font-family: operetta-12, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color: #000000;
+    text-align: center;
+  }
+
+  .hexagon-blue-bkgd {
+    position: relative;
+  }
+  .parallax-saffron {
+    background-image: url("/images/1920px-orange-green.png");
+    min-height: auto;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .parallax-green {
+    background-image: url("/images/1920-green-black-logo.png");
+    min-height: auto;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  /* black background logos*/
+  .parallax-black-white {
+    background-image: url("/images/1920-black-white-logo.png");
+    min-height: auto;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  /*hexagon print parallax*/
+
+  .parallax-blue-hex {
+    background-image: url("/images/African-Print-hexagon-blue.png");
+    min-height: auto;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .parallax-blue-white {
+    background-image: url("/images/1920-black-white-logo.png");
+    min-height: auto;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
